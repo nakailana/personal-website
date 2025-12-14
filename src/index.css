@@ -5,7 +5,8 @@
 @layer base {
 
   body {
-    @apply bg-[#05070a] text-[#fffff0] relative font-sans 
+    @apply bg-[#05070a] text-[#fffff0] relative 
+    font-sans
     h-screen overflow-x-hidden;
   }
 

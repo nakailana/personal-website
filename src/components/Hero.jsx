@@ -20,8 +20,51 @@ const Hero = () => {
                 </div>
             </div>
 
+            {/* Main Heading */}
+            <h1 className="text-3xl sm:text-4xl
+            md:text-5xl lg:text-6xl font-semibold
+            tracking-wider my-8">
+                ABOUT ME:
+                <br />
+                LANA NAKAI
+            </h1>
+
+            {/* Description */}
+            <p className="text-base sm:text-lg tracking-wider
+            text-gray-400 max-w-[25rem]
+            lg:max-w-[30rem]"> 
+               Hello! I'm currently an undergrad Computer Science 
+               student in the Faculty of Science at the University of British Columbia. 
+               In the future, I look forward to building exciting solutions to problems, however small or complex!
+               <br /> Nice to meet you! 
+            </p>
+
+            {/* Buttons */}
+            <div className="flex gap-4 mt-12">
+                <a className="border border-[#2a2a2a]
+                py-2 sm:py-3 px-4 sm:px-5 rounded-full
+                sm:text-lg text-sm font-semibold
+                tracking-wider transition-all duration-300 
+                hover:bg-[#192130] bg-[#0a0c0f]" href="#">
+                    Resume Download <i class="bx
+                    bx-link-external"></i>
+                </a>
+                <a className="border border-[#2a2a2a]
+                py-2 sm:py-3 px-4 sm:px-10 rounded-full
+                sm:text-lg text-sm font-semibold
+                tracking-wider transition-all duration-300 
+                hover:bg-[#192130]
+                bg-[#fffff0] text-black hover:text-white" href="#">
+                    Contact <i class="bx
+                    bx-link-external"></i>
+                </a>
+            </div>
+
         </div>
 
+        {/* 3D robot */}
+        {/* Spline className='absolute lg:top-0 top-[-20%]
+        bottom-0 lg:left-[25%] sm:lfe" scene ="" */}
     </main>
   )
 }
