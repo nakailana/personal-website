@@ -5,7 +5,10 @@ const Hero = () => {
     <main className="flex lg:mt-20 flex-col lg:flex-row
     items-center justify-between min-h-[calc(90vh-6rem)]">
         
-        <div className="max-w-xl ml-[5%] z-10 mt-[90%]
+        <div data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        className="max-w-xl ml-[5%] z-10 mt-[90%]
         md:mt[60%] lg:mt-0">
             {/* Tag box-with gradient border*/}
             <div className="relative w-[95%] sm:w-48 h-10
@@ -63,8 +66,13 @@ const Hero = () => {
         </div>
 
         {/* 3D robot */}
-        {/* Spline className='absolute lg:top-0 top-[-20%]
-        bottom-0 lg:left-[25%] sm:lfe" scene ="" */}
+        {/* Spline data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" 
+            data-aos-duration="3000"
+            className='absolute lg:top-0 top-[-20%]
+            bottom-0 lg:left-[25%] sm:lfe" scene ="" */}
     </main>
   )
 }

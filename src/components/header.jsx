@@ -26,22 +26,34 @@ const Header = () => {
         {/*desktop navigation*/}
         {/*hidden on small screens, flex at med or larger*/}
         <nav className="hidden md:flex items-center gap-12">
-            <a className="text-base tracking-wider
+            <a data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1000" 
+            className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#">
                 HOME
             </a>
-            <a className="text-base tracking-wider
+            <a data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500" 
+            className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#">
                 ABOUT ME
             </a>
-            <a className="text-base tracking-wider
+            <a data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2000" 
+            className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#">
                 BLOG
             </a>
-            <a className="text-base tracking-wider
+            <a data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="2500" 
+            className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#">
                 PORTFOLIO
