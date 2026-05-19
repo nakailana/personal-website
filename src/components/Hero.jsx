@@ -19,7 +19,7 @@ const Hero = () => {
                 bg-[#192130] rounded-full flex items-center 
                 justify-center gap-1">
                     <i class='bx bx-star'></i> 
-                    INTRODUCING
+                    INTRODUCTION
                 </div>
             </div>
 
@@ -29,7 +29,6 @@ const Hero = () => {
             tracking-wider my-8">
                 ABOUT ME:
                 <br />
-                LANA NAKAI
             </h1>
 
             {/* Description */}
@@ -39,7 +38,7 @@ const Hero = () => {
                Hello! I'm currently an undergrad Computer Science 
                student in the Faculty of Science at the University of British Columbia. 
                In the future, I look forward to building exciting solutions to problems, however small or complex!
-               <br /> Nice to meet you! 
+               <br /> Links: 
             </p>
 
             {/* Buttons */}
@@ -65,14 +64,15 @@ const Hero = () => {
 
         </div>
 
-        {/* 3D robot */}
-        {/* Spline data-aos="fade-zoom-in"
-            data-aos-easing="ease-in-back"
+        <img 
+            data-aos="fade"
+            data-aos-easing="ease-in"
             data-aos-delay="300"
-            data-aos-offset="0" 
-            data-aos-duration="3000"
-            className='absolute lg:top-0 top-[-20%]
-            bottom-0 lg:left-[25%] sm:lfe" scene ="" */}
+            data-aos-duration="2500"
+            className="absolute top-1/6 lg:top-1/4 -translate-y-1/2 
+            lg:left-[55%] -z-10" 
+            src="/ginger.png" alt="Ginger-img" 
+        />
     </main>
   )
 }

@@ -32,7 +32,7 @@ const Header = () => {
             className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#">
-                HOME
+                ABOUT ME
             </a>
             <a data-aos="fade-down"
             data-aos-easing="linear"
@@ -40,7 +40,7 @@ const Header = () => {
             className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#">
-                ABOUT ME
+                BLOG
             </a>
             <a data-aos="fade-down"
             data-aos-easing="linear"
@@ -48,7 +48,7 @@ const Header = () => {
             className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#">
-                BLOG
+                PROJECTS
             </a>
             <a data-aos="fade-down"
             data-aos-easing="linear"
@@ -56,16 +56,16 @@ const Header = () => {
             className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#">
-                PORTFOLIO
+                CONTACT
             </a>
         </nav>
 
-        <button className="hidden md:block bg-[#a7a7a7] text-black
+        {/* <button className="hidden md:block bg-[#a7a7a7] text-black
         py-3 px-8 rounded-full border-none font-medium 
         transition-all duration-500 hover:bg-white cursor-pointer
         z-50">
             SIGN IN
-        </button>
+        </button> */}
 
         {/*mobile menu button- visibly only on mobile*/}
         <button onClick={toggleMobileMenu}
@@ -82,11 +82,6 @@ const Header = () => {
                 <a className="text-base tracking-wider
                 transition-colors hover:text-gray-300
                 z-50" href="#">
-                    HOME
-                </a>
-                <a className="text-base tracking-wider
-                transition-colors hover:text-gray-300
-                z-50" href="#">
                     ABOUT ME
                 </a>
                 <a className="text-base tracking-wider
@@ -98,6 +93,11 @@ const Header = () => {
                 transition-colors hover:text-gray-300
                 z-50" href="#">
                     PORTFOLIO
+                </a>
+                <a className="text-base tracking-wider
+                transition-colors hover:text-gray-300
+                z-50" href="#">
+                    CONTACT
                 </a>
             </nav>
         </div>
