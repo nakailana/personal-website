@@ -8,9 +8,9 @@ const Footer = () => {
         {/* <a className="nav-brand" href="#">
             <img src="logo.png" alt="logo"> </img> 
         </a> */}
-        <span className="text-sm md:text-base lg:text-lg
+        <span className="text-[0.5rem] md:text-xs lg:text-sm
         text-gray-400 m-0"> 
-            © 2026 Lana Nakai | All Rights Reserved 
+            Lana Nakai © 2026 
         </span>
     </footer>
   )

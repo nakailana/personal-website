@@ -4,7 +4,7 @@
 
 @layer base {
     body {
-        @apply bg-[#05070a] text-[#fffff0] relative 
+        @apply bg-[#0a0e14] text-[#fffff0] relative 
         font-sans overflow-x-hidden;
         font-family: 'Inter', sans-serif;
     }

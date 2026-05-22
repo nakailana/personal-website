@@ -64,12 +64,13 @@ const Hero = () => {
 
         </div>
 
+        {/* Image */}
         <img 
             data-aos="fade"
             data-aos-easing="ease-in"
             data-aos-delay="300"
             data-aos-duration="2500"
-            className="absolute top-1/6 lg:top-1/4 -translate-y-1/2 
+            className="absolute top-1/8 lg:top-1/6 -translate-y-1/2 
             lg:left-[55%] -z-10" 
             src="/ginger.png" alt="Ginger-img" 
         />

@@ -1,6 +1,7 @@
-import Header from "./components/header"
-import Hero from "./components/hero"
-import Footer from "./components/footer"
+import Header from "./components/Header"
+import Hero from "./components/Hero"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -17,7 +18,7 @@ export default function App() {
   return (
     <div className="relative overflow-x-hidden">
       {/* Gradient Image */}
-      <img className="absolute top-0 right-0 opacity-60 -z-1" 
+      <img className="absolute top-0 right-0 opacity-60 -z-1 " 
       src="/gradient.png" alt="Gradient-img" />
 
       {/* Blur Effect */}
@@ -27,6 +28,7 @@ export default function App() {
 
       <Header/>
       <Hero />
+      <Contact />
       <Footer />
     </div>
   )
