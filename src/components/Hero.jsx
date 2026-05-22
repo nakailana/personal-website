@@ -2,7 +2,7 @@ import 'boxicons/css/boxicons.min.css';
 
 const Hero = () => {
   return (
-    <main className="flex lg:mt-20 flex-col lg:flex-row
+    <main id="about" className="flex lg:mt-20 flex-col lg:flex-row
     items-center justify-between min-h-[calc(90vh-6rem)]">
         
         <div data-aos="fade-right"
@@ -56,7 +56,7 @@ const Hero = () => {
                 sm:text-lg text-sm font-semibold
                 tracking-wider transition-all duration-300 
                 hover:bg-[#192130]
-                bg-[#fffff0] text-black hover:text-white" href="#">
+                bg-[#fffff0] text-black hover:text-white" href="#contact">
                     Contact <i class="bx
                     bx-link-external"></i>
                 </a>

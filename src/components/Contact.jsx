@@ -2,7 +2,7 @@ import 'boxicons/css/boxicons.min.css';
 
 const Contact = () => {
   return (
-    <section className="flex-row justify-center mt-[2rem]
+    <section id="contact" className="flex-row justify-center mb-[2rem]
     items-center py-1 px-1 lg:px-5 relative z-50 bg-[#0d1219]">
 
         <div className="flex max-w-5xl ml-[15%] z-10 mt-[2rem] mb-[2rem]">
@@ -12,9 +12,7 @@ const Contact = () => {
                     <i>Let's Connect</i>
                 </h1>
                 <h2 className="text-small md:text-base lg:text-large tracking-wider mb-3">
-                    LINKS:
-                </h2>
-                <ul className="text-xs md:text-sm lg:text-base tracking-wider mb-5 flex flex-col gap-1">
+                    <ul className="text-xs md:text-sm lg:text-base tracking-wider mb-5 flex flex-col gap-1">
                     <li>
                         <a href="https://www.linkedin.com/in/lana-nakai/" target="_blank" rel="noreferrer"
                             className="underline hover:text-gray-400 transition-colors">
@@ -33,7 +31,9 @@ const Contact = () => {
                             lana.nakai07@gmail.com
                         </a>
                     </li>
-                </ul>
+                    </ul>
+                </h2>
+                
             </div>
 
             {/* input boxes */}

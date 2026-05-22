@@ -15,8 +15,8 @@ const Header = () => {
     }
 
   return (
-    <header className="flex justify-between
-    items-center py-4 px-4 lg:px-20">
+    <header className="fixed w-full flex justify-between
+    items-center py-4 px-4 lg:px-20 z-50 bg-gradient-to-b from-[#0d1219] to-transparent pb-32">
 
         <h1 className="text-3xl md:text-4xl lg:text-5xl
         font-light m-0"> { /*adjust logo nicely*/}          
@@ -31,7 +31,7 @@ const Header = () => {
             data-aos-duration="1000" 
             className="text-base tracking-wider
             transition-colors hover:text-gray-300
-            z-50" href="#">
+            z-50" href="#about">
                 ABOUT ME
             </a>
             <a data-aos="fade-down"
@@ -55,7 +55,7 @@ const Header = () => {
             data-aos-duration="2500" 
             className="text-base tracking-wider
             transition-colors hover:text-gray-300
-            z-50" href="#">
+            z-50" href="#contact">
                 CONTACT
             </a>
         </nav>
