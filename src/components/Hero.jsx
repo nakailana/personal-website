@@ -47,8 +47,8 @@ const Hero = () => {
                 py-2 sm:py-3 px-4 sm:px-5 rounded-full
                 sm:text-lg text-sm font-semibold
                 tracking-wider transition-all duration-300 
-                hover:bg-[#192130] bg-[#0a0c0f]" href="#">
-                    Resume Download <i class="bx
+                hover:bg-[#192130] bg-[#0a0c0f]" href="LanaNakaiResume.pdf">
+                    Open Resume <i class="bx
                     bx-link-external"></i>
                 </a>
                 <a className="border border-[#2a2a2a]
