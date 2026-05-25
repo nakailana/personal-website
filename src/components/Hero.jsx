@@ -38,7 +38,6 @@ const Hero = () => {
                Hello! I'm currently an undergrad Computer Science 
                student in the Faculty of Science at the University of British Columbia. 
                In the future, I look forward to building exciting solutions to problems, however small or complex!
-               <br /> Links: 
             </p>
 
             {/* Buttons */}

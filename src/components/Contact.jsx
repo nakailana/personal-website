@@ -1,6 +1,26 @@
-import 'boxicons/css/boxicons.min.css';
+import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+      form.current,
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+    ).then(() => {
+      alert('Message sent!');
+      form.current.reset();
+    }).catch(() => {
+      alert('Something went wrong, please try again.');
+    });
+  };
+
   return (
     <section id="contact" className="flex-row justify-center mb-[2rem]
     items-center py-1 px-1 lg:px-5 relative z-50 bg-[#0d1219]">
@@ -37,25 +57,26 @@ const Contact = () => {
             </div>
 
             {/* input boxes */}
-            <div className="flex flex-col gap-2 w-full ml-[5rem] mr-[2rem]
+            <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-2 w-full ml-[5rem] mr-[2rem]
                 bg-[#192130] rounded-3xl items-center justify-center p-4 w-full">
 
-                <input type="text" placeholder="Name" 
+                <input name="user_name" type="text" placeholder="Name" required
                     className="w-full rounded-3xl px-4 py-2 bg-[#0d1520] text-white placeholder-gray-500 outline-none focus:ring-1 focus:ring-gray-600"/>
                 
-                <input type="text" placeholder="Email"
+                <input name="user_email" type="email" placeholder="Email" required
                     className="w-full rounded-3xl px-4 py-2 bg-[#0d1520] text-white placeholder-gray-500 outline-none focus:ring-1 focus:ring-gray-600"/>
                 
-                <textarea type="text"  placeholder="Message" 
+                <textarea name="message"  type="text"  placeholder="Message" required
                     rows={5}
                     className="w-full rounded-3xl px-4 py-2 bg-[#0d1520] text-white placeholder-gray-500 outline-none focus:ring-1 focus:ring-gray-600"/>
                 
                 <div className="flex justify-end">
-                    <button className="py-3 px-12 rounded-full text-sm font-semibold tracking-wider transition-all duration-300 bg-[#fffff0] text-black hover:bg-transparent hover:text-white border border-[#fffff0]">
+                    <button type="submit"
+                        className="py-3 px-12 rounded-full text-sm font-semibold tracking-wider transition-all duration-300 bg-[#fffff0] text-black hover:bg-transparent hover:text-white border border-[#fffff0]">
                         Send
                     </button>
                 </div>
-            </div>
+            </form>
         </div>
     </section>
   )
