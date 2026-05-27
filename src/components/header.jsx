@@ -31,33 +31,26 @@ const Header = () => {
             data-aos-duration="1000" 
             className="text-base tracking-wider
             transition-colors hover:text-gray-300
-            z-50" href="#about">
-                ABOUT ME
+            z-50" href="#">
+                BIO
             </a>
             <a data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="2000" 
+            data-aos-duration="1300" 
             className="text-base tracking-wider
             transition-colors hover:text-gray-300
-            z-50" href="#">
+            z-50" href="#projects">
                 PROJECTS
             </a>
             <a data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="2500" 
+            data-aos-duration="1600" 
             className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#contact">
                 CONTACT
             </a>
         </nav>
-
-        {/* <button className="hidden md:block bg-[#a7a7a7] text-black
-        py-3 px-8 rounded-full border-none font-medium 
-        transition-all duration-500 hover:bg-white cursor-pointer
-        z-50">
-            SIGN IN
-        </button> */}
 
         {/*mobile menu button- visibly only on mobile*/}
         <button onClick={toggleMobileMenu}
@@ -68,22 +61,22 @@ const Header = () => {
         {/*mobile menu button- hidden by default*/}
         <div id='mobileMenu' className='hidden fixed 
         top-16 bottom-0 right-0 left-0
-        p-5 md:hidden z-40 bg-black bg-opacity-70
+        p-5 md:hidden z-40 bg-[#0d1219] bg-opacity-70
         backdrop-blur- md'>
             <nav className="flex flex-col gap-6 items-center">
                 <a className="text-base tracking-wider
                 transition-colors hover:text-gray-300
-                z-50" href="#">
-                    ABOUT ME
+                z-50" href="#about">
+                    BIO
                 </a>
                 <a className="text-base tracking-wider
                 transition-colors hover:text-gray-300
-                z-50" href="#">
+                z-50" href="#projects">
                     PROJECTS
                 </a>
                 <a className="text-base tracking-wider
                 transition-colors hover:text-gray-300
-                z-50" href="#">
+                z-50" href="#contact">
                     CONTACT
                 </a>
             </nav>

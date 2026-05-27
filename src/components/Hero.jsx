@@ -8,8 +8,8 @@ const Hero = () => {
         <div data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
-        className="max-w-xl ml-[5%] z-10 mt-[90%]
-        md:mt[60%] lg:mt-0">
+        className="max-w-xl ml-[5%] z-10 mt-[60%]
+        md:mt[30%] lg:mt-0">
             {/* Tag box-with gradient border*/}
             <div className="relative w-[95%] sm:w-48 h-10
             bg-gradient-to-r from-[#656565] to-[#e99b63]
@@ -28,16 +28,16 @@ const Hero = () => {
             md:text-5xl lg:text-6xl font-semibold
             tracking-wider my-8">
                 ABOUT ME:
-                <br />
             </h1>
 
             {/* Description */}
             <p className="text-base sm:text-lg tracking-wider
             text-gray-400 max-w-[25rem]
             lg:max-w-[30rem]"> 
-               Hello! I'm currently an undergrad Computer Science 
-               student in the Faculty of Science at the University of British Columbia. 
-               In the future, I look forward to building exciting solutions to problems, however small or complex!
+               I'm an aspiring software engineer in my second year of Computer Science
+               at the University of British Columbia in Vancouver, BC. 
+               I am a TA for UBC's largest introductory CS course, teaching topics
+               from basic syntax and style to well known algorithms and graphs through functional programming.
             </p>
 
             {/* Buttons */}
@@ -55,7 +55,7 @@ const Hero = () => {
                 sm:text-lg text-sm font-semibold
                 tracking-wider transition-all duration-300 
                 hover:bg-[#192130]
-                bg-[#fffff0] text-black hover:text-white" href="#contact">
+                bg-[#fffff0] text-[#0d1219] hover:text-[#fffff0]" href="#contact">
                     Contact <i class="bx
                     bx-link-external"></i>
                 </a>
@@ -68,10 +68,10 @@ const Hero = () => {
             data-aos="fade"
             data-aos-easing="ease-in"
             data-aos-delay="300"
-            data-aos-duration="2500"
-            className="absolute top-1/8 lg:top-1/6 -translate-y-1/2 
-            lg:left-[55%] -z-10" 
-            src="/ginger.png" alt="Ginger-img" 
+            data-aos-duration="2000"
+            className="absolute mt-[5%] lg:left-[55%] 
+              w-[10rem] md:w-[14rem] lg:w-[18rem] h-auto -z-1" 
+            src="/me.png" alt="Lana" 
         />
     </main>
   )

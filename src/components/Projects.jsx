@@ -4,9 +4,9 @@ const Projects = () => {
   return (
     <section id="projects" className="flex-row justify-center 
     bg-[#0d1219] md:mt-10 lg:mt-20 mb-[2rem] 
-    items-center py-1 px-1 lg:px-5 relative z-50">
+    items-center py-1 px-1 lg:px-5 relative z-10">
 
-      <div className="mt-5 lg:mt-10 mb-2 md:mb-4 lg:mb-8 ml-[5%]">
+      <div className="mt-10 mb-2 md:mb-4 lg:mb-8 ml-[5%]">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-wider">
             <i>PROJECTS</i>
         </h1>

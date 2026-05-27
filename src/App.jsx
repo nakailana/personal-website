@@ -19,7 +19,7 @@ export default function App() {
   return (
     <div className="relative overflow-x-hidden">
       {/* Gradient Image */}
-      <img className="absolute top-0 right-0 opacity-60 -z-1 " 
+      <img className="absolute top-0 right-0 opacity-60 -z-15" 
       src="/gradient.png" alt="Gradient-img" />
 
       {/* Blur Effect */}

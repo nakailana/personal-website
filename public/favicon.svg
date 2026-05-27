@@ -1,0 +1,12 @@
+<svg width="200" height="200" viewBox="0 0 200 200" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>LN favicon</title>
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#656565"/>
+      <stop offset="100%" stop-color="#e99b63"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="200" height="200" rx="40" fill="#05070a"/>
+  <rect x="0" y="0" width="200" height="200" rx="40" fill="none" stroke="url(#fg)" stroke-width="2"/>
+  <text x="100" y="112" text-anchor="middle" dominant-baseline="middle" font-family="Georgia, serif" font-size="96" font-weight="600" fill="#fffff0" letter-spacing="-4">LN</text>
+</svg>
