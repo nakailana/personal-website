@@ -36,8 +36,8 @@ const Hero = () => {
             lg:max-w-[30rem]"> 
                I'm an aspiring software engineer in my second year of Computer Science
                at the University of British Columbia in Vancouver, BC. 
-               I am a TA for UBC's largest introductory CS course, teaching topics
-               from basic syntax and style to well known algorithms and graphs through functional programming.
+               I currently am a TA for UBC's largest introductory CS course, teaching topics
+               from basic syntax and style to algorithms and graphs through functional programming.
             </p>
 
             {/* Buttons */}
