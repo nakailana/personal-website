@@ -34,10 +34,12 @@ const Hero = () => {
             <p className="text-base sm:text-lg tracking-wider
             text-gray-400 max-w-[25rem]
             lg:max-w-[30rem]"> 
-               I'm an aspiring software engineer in my second year of Computer Science
-               at the University of British Columbia in Vancouver, BC. 
-               I currently am a TA for UBC's largest introductory CS course, teaching topics
-               from basic syntax and style to algorithms and graphs through functional programming.
+               Hi, I'm Lana, and I'm in my second year studying Computer Science
+               at UBC Vancouver in BC, Canada.
+               I'm a software engineer passionate about building robust 
+               real time systems with real implications for a safer future.
+               I also TA for UBC's main introductory CS course, helping teach topics
+               from syntax and style to algorithms and graphs through functional programming.
             </p>
 
             {/* Buttons */}
