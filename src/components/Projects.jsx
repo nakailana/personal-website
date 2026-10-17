@@ -29,11 +29,20 @@ const Projects = () => {
                   {String(index + 1).padStart(2, '0')}
                 </span>
                 <div className="min-w-0">
-                  <h2 className="text-xl md:text-2xl lg:text-3xl
-                    font-semibold not-italic font-sans
-                    tracking-wider group-hover:text-gray-300 transition-colors">
-                    {project.title}
-                  </h2>
+                  <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+                    <h2 className="text-xl md:text-2xl lg:text-3xl
+                      font-semibold not-italic font-sans
+                      tracking-wider group-hover:text-gray-300 transition-colors">
+                      {project.title}
+                    </h2>
+                    {project.inProgress && (
+                      <span className="text-[10px] md:text-xs tracking-widest
+                          border border-[#fffff0]/60 bg-[#fffff0]/10 text-[#fffff0]
+                          px-2.5 py-0.5 rounded-full whitespace-nowrap">
+                        IN PROGRESS
+                      </span>
+                    )}
+                  </div>
                   <p className="text-gray-500 text-xs md:text-sm lg:text-base mt-1">
                       {project.description}
                   </p>
