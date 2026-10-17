@@ -36,6 +36,14 @@ const Header = () => {
             </a>
             <a data-aos="fade-down"
             data-aos-easing="linear"
+            data-aos-duration="1150" 
+            className="text-base tracking-wider
+            transition-colors hover:text-gray-300
+            z-50" href="#experience">
+                EXPERIENCE
+            </a>
+            <a data-aos="fade-down"
+            data-aos-easing="linear"
             data-aos-duration="1300" 
             className="text-base tracking-wider
             transition-colors hover:text-gray-300
@@ -68,6 +76,11 @@ const Header = () => {
                 transition-colors hover:text-gray-300
                 z-50" href="#about">
                     BIO
+                </a>
+                <a className="text-base tracking-wider
+                transition-colors hover:text-gray-300
+                z-50" href="#experience">
+                    EXPERIENCE
                 </a>
                 <a className="text-base tracking-wider
                 transition-colors hover:text-gray-300

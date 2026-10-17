@@ -9,7 +9,7 @@ const Hero = () => {
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
         className="max-w-xl ml-[5%] z-10 mt-[60%]
-        md:mt[30%] lg:mt-0">
+        lg:mt-0">
             {/* Tag box-with gradient border*/}
             <div className="relative w-[95%] sm:w-48 h-10
             bg-gradient-to-r from-[#656565] to-[#e99b63]
