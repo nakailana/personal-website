@@ -27,19 +27,18 @@ const Hero = () => {
             <h1 className="text-3xl sm:text-4xl
             md:text-5xl lg:text-6xl font-semibold
             tracking-wider my-8">
-                ABOUT ME:
+                HI! I'M LANA,
             </h1>
 
             {/* Description */}
             <p className="text-base sm:text-lg tracking-wider
             text-gray-400 max-w-[25rem]
             lg:max-w-[30rem]"> 
-               Hi, I'm Lana, and I'm in my second year studying Computer Science
-               at UBC Vancouver in BC, Canada.
-               I'm a software engineer passionate about building robust 
-               real time systems with real implications for a safer future.
-               I also TA for UBC's main introductory CS course, helping teach topics
-               from syntax and style to algorithms and graphs through functional programming.
+               a second-year Computer Science student at UBC Vancouver, passionate about building software with an impact. 
+               This summer I interned at Atropos Group and CHAOS Industries, working on drone telemetry and robotics software. 
+               Now I'm a software developer on UBC UAS, orchestrating the software onboard our drone's Jetson. I also TA 
+               UBC's main intro CS course, teaching students
+               from their first lines of code to recursive algorithms and graphs.
             </p>
 
             {/* Buttons */}

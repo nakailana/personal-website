@@ -57,8 +57,8 @@ const Contact = () => {
           {/* intro + links */}
           <div className="wide:w-[35%] shrink-0">
             <p className="text-gray-400 text-sm md:text-base lg:text-lg tracking-wider">
-              Want to work together, or just say hi? Send me a message or
-              find me on any of these.
+              Send me a message, or find me on any of the accounts below. 
+              I'm excited to get to know you!
             </p>
             <ul className="mt-6 flex flex-col">
               {links.map((link, index) => (
