@@ -13,7 +13,7 @@ export const experiences = [
       "Utilizing WebRTC to integrate a video streaming pipeline with ground communications.",
     ],
     tech: ["C++", "Python", "ROS", "Docker", "Git"],
-    images: [],
+    images: ["/experiences/uas-teamphoto.jpg"],
   },
   {
     id: 2,
