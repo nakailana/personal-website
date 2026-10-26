@@ -76,7 +76,7 @@ const Contact = () => {
                     target={link.href.startsWith("http") ? "_blank" : undefined}
                     className="text-sm md:text-base tracking-wider text-gray-200
                       hover:underline hover:text-gray-400 transition-colors">
-                    {link.label} ↗
+                    {link.label} {"↗\uFE0E"}
                   </a>
                   <span className={`${emberStyle}
                     group-hover/link:scale-x-100 group-hover/link:opacity-100`} />
@@ -123,7 +123,7 @@ const Contact = () => {
                   text-sm sm:text-base font-semibold tracking-wider
                   transition-all duration-300 border border-[#2a2a2a]
                   bg-[#fffff0] text-[#0d1219] hover:bg-[#192130] hover:text-[#fffff0]">
-                SEND ↗
+                SEND {"↗\uFE0E"}
               </button>
             </div>
           </form>

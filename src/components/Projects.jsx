@@ -62,7 +62,7 @@ const Projects = () => {
                   <a href={project.live} target="_blank" rel="noreferrer"
                     className="hover:underline hover:text-gray-400 transition-colors
                         tracking-wider text-gray-200">
-                    OPEN ↗
+                    OPEN {"↗\uFE0E"}
                   </a>
                 </div>
               )}
