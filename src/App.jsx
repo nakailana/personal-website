@@ -4,18 +4,8 @@ import Experiences from "./components/Experiences"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from "react";
 
 export default function App() {
-
-  useEffect(() => {
-    AOS.init({
-      duration: 1500,
-      once: true,
-    })
-  })
 
   return (
     <div className="relative overflow-x-hidden">

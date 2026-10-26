@@ -19,41 +19,29 @@ const Header = () => {
     items-center py-4 px-4 lg:px-20 z-50 bg-gradient-to-b from-[#0d1219] to-transparent pb-32">
 
         <h1 className="text-3xl md:text-4xl lg:text-5xl
-        font-light m-0"> { /*adjust logo nicely*/}          
-            Lana Nakai
+        font-normal tracking-wider font-['Chakra_Petch', serif] m-0"> { /*adjust logo nicely*/}          
+            LANA NAKAI
         </h1>
 
         {/*desktop navigation*/}
         {/*hidden on small screens, flex at med or larger*/}
         <nav className="hidden md:flex items-center gap-12">
-            <a data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1000" 
-            className="text-base tracking-wider
+            <a className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#">
                 BIO
             </a>
-            <a data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1150" 
-            className="text-base tracking-wider
+            <a className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#experience">
                 EXPERIENCE
             </a>
-            <a data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1300" 
-            className="text-base tracking-wider
+            <a className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#projects">
                 PROJECTS
             </a>
-            <a data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1600" 
-            className="text-base tracking-wider
+            <a className="text-base tracking-wider
             transition-colors hover:text-gray-300
             z-50" href="#contact">
                 CONTACT

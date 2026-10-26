@@ -12,8 +12,10 @@
     h1, h2, h3 {
         font-family: 'Playfair Display Black', serif;
     }
-    
-    [data-aos="fade"] {
-        transform: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .animate-fade-in {
+        animation: none;
     }
 }

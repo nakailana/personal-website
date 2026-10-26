@@ -43,10 +43,13 @@ const Contact = () => {
     <section id="contact" className="flex-row justify-center
     mt-20 mb-[2rem] items-center py-1 px-1 lg:px-5 relative z-10">
 
-      <div className="mt-10 mb-2 md:mb-4 lg:mb-8 ml-[5%]">
+      <div className="flex items-end justify-between
+          mt-10 mb-2 md:mb-4 lg:mb-8 mx-[5%]">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-wider">
             <i>LET'S CONNECT</i>
         </h1>
+        <img src="/mii.png" alt="Lana's Mii"
+          className="h-14 sm:h-16 lg:h-20 w-auto shrink-0" />
       </div>
 
       <div className="relative p-[1px] mb-5 lg:mb-10 bg-[#192130]">
